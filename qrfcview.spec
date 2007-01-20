@@ -9,7 +9,7 @@ Release:	0.1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.berlios.de/qrfcview/%{name}-%{version}.tgz
-# Source0-md5:	d41d8cd98f00b204e9800998ecf8427e
+# Source0-md5:	836783d9c327237f4b1aa40de6b4376a
 Source1:	%{name}.desktop
 URL:		http://qrfcview.berlios.de/	
 BuildRequires:	QtCore-devel
