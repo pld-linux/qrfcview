@@ -22,15 +22,23 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 qRFCView is a viewer for IETF RFCs. Advantages are:
+ - automatic table of content, with direct opening of section;
+ - handling of RFC internal cross-references;
+ - automatic downloading of a referenced RFC from the IETF web site on
+   a simple click;
+ - caching of RFC in a local directory;
+ - tab-browsing of RFC;
+ - searching. 
 
-    * automatic table of content, with direct opening of section;
-    * handling of RFC internal cross-references;
-    * automatic downloading of a referenced RFC from the IETF web site on a simple click;
-    * caching of RFC in a local directory;
-    * tab-browsing of RFC;
-    * searching. 
-
-#%%description -l pl
+%description -l pl
+qRFCView to przegl±darka dla RFC z IETF. Jej zalety to:
+ - automatyczny spis tre¶ci, z bezpo¶rednim otwieraniem sekcji
+ - obs³uga wewnêtrznych odno¶ników w RFC
+ - automatyczne ¶ci±ganie wzmiankowanych RFC ze strony WWW IETF
+   prostym klikniêciem
+ - zapamiêtywanie RFC w lokalnym katalogu
+ - przegl±danie RFC z u¿yciem zak³adek
+ - wyszukiwanie
 
 %prep
 %setup -q
@@ -43,8 +51,8 @@ qt4-qmake
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT{%{_bindir},%{_desktopdir},%{_pixmapsdir}}
+
 install bin/qRFCView $RPM_BUILD_ROOT%{_bindir}/qrfcview
 install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install images/rfcview.png $RPM_BUILD_ROOT%{_pixmapsdir}/qrfcview.png
