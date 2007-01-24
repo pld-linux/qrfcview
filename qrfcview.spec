@@ -1,11 +1,11 @@
 #
-# TODO: - don't know how to deal with rest images
+# TODO: - don't know how to deal with rest of images
 #
 Summary:	Smart viewer for IETF RFCs
 Summary(pl):	Sprytna przegl±darka dokumentów RFC
 Name:		qrfcview	
 Version:	0.62
-Release:	0.1
+Release:	1
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.berlios.de/qrfcview/%{name}-%{version}.tgz
