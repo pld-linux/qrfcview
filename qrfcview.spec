@@ -2,7 +2,7 @@
 # TODO: - don't know how to deal with rest of images
 #
 Summary:	Smart viewer for IETF RFCs
-Summary(pl.UTF-8):   Sprytna przeglądarka dokumentów RFC
+Summary(pl.UTF-8):	Sprytna przeglądarka dokumentów RFC
 Name:		qrfcview
 Version:	0.62
 Release:	1
