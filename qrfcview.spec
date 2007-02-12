@@ -2,7 +2,7 @@
 # TODO: - don't know how to deal with rest of images
 #
 Summary:	Smart viewer for IETF RFCs
-Summary(pl):	Sprytna przegl±darka dokumentów RFC
+Summary(pl.UTF-8):   Sprytna przeglÄ…darka dokumentÃ³w RFC
 Name:		qrfcview
 Version:	0.62
 Release:	1
@@ -30,14 +30,14 @@ qRFCView is a viewer for IETF RFCs. Advantages are:
  - tab-browsing of RFC;
  - searching.
 
-%description -l pl
-qRFCView to przegl±darka dla RFC z IETF. Jej zalety to:
- - automatyczny spis tre¶ci, z bezpo¶rednim otwieraniem sekcji
- - obs³uga wewnêtrznych odno¶ników w RFC
- - automatyczne ¶ci±ganie wzmiankowanych RFC ze strony WWW IETF prostym
-   klikniêciem
- - zapamiêtywanie RFC w lokalnym katalogu
- - przegl±danie RFC z u¿yciem zak³adek
+%description -l pl.UTF-8
+qRFCView to przeglÄ…darka dla RFC z IETF. Jej zalety to:
+ - automatyczny spis treÅ›ci, z bezpoÅ›rednim otwieraniem sekcji
+ - obsÅ‚uga wewnÄ™trznych odnoÅ›nikÃ³w w RFC
+ - automatyczne Å›ciÄ…ganie wzmiankowanych RFC ze strony WWW IETF prostym
+   klikniÄ™ciem
+ - zapamiÄ™tywanie RFC w lokalnym katalogu
+ - przeglÄ…danie RFC z uÅ¼yciem zakÅ‚adek
  - wyszukiwanie
 
 %prep
