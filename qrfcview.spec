@@ -14,8 +14,8 @@ Source1:	%{name}.desktop
 URL:		http://qrfcview.berlios.de/
 BuildRequires:	QtGui-devel
 BuildRequires:	QtNetwork-devel
-BuildRequires:	qt4-build
-BuildRequires:	qt4-qmake
+BuildRequires:	qt4-build >= 4.3.3-3
+BuildRequires:	qt4-qmake >= 4.3.3-3
 BuildRequires:	rpmbuild(macros) >= 1.129
 BuildRequires:	sed >= 4.0
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -46,7 +46,7 @@ qRFCView to przeglądarka dla RFC z IETF. Jej zalety to:
 
 %build
 export QTDIR="%{_prefix}"
-qt4-qmake
+qmake-qt4
 %{__make}
 
 %install
