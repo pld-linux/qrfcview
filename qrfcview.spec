@@ -5,7 +5,7 @@ Summary:	Smart viewer for IETF RFCs
 Summary(pl.UTF-8):	Sprytna przeglądarka dokumentów RFC
 Name:		qrfcview
 Version:	0.62
-Release:	1
+Release:	2
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.berlios.de/qrfcview/%{name}-%{version}.tgz
@@ -47,7 +47,9 @@ qRFCView to przeglądarka dla RFC z IETF. Jej zalety to:
 %build
 export QTDIR="%{_prefix}"
 qmake-qt4
-%{__make}
+%{__make} \
+	CC="%{__cc}" \
+	CXX="%{__cxx}"
 
 %install
 rm -rf $RPM_BUILD_ROOT
