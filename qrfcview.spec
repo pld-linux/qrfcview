@@ -5,7 +5,7 @@ Summary:	Smart viewer for IETF RFCs
 Summary(pl.UTF-8):	Sprytna przeglądarka dokumentów RFC
 Name:		qrfcview
 Version:	0.62
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://download.berlios.de/qrfcview/%{name}-%{version}.tgz
